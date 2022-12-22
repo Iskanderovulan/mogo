@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,23 +13,97 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
 
-<div class="container">
-    <div class="mogo-grid">
-        <div class="mogo-items-1"></div>
-        <div class="mogo-items-2">
-            <div class="main-wrap">
+    <div class="container">
+        <h2>accordion</h2>
+        <div class="mogo-grid">
+            <div class="mogo-items-1"></div>
+            <div class="mogo-items-2">
+                <div class="main-wrap">
+                    <div class="mogo-header">
+                        <div class="mogo-header-wrap">
+                            <img src="img/picture.png" alt="">
+                            <p>Photo</p>
+                        </div>
+                        <img class="mogo-arrow-down dropbtn dropbtn-1 disabled" onclick="open_dropdown('dd_file')"
+                            id="button" src="img/arrow-down.png" alt="">
+                    </div>
+                    <div class="mogo-area mogo-area-1 " id="dd_file">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum
+                            dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum
+                            dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-wrap">
+                    <div class="mogo-header">
+                        <div class="mogo-header-wrap">
+                            <img src="img/equalizer.png" alt="">
+                            <p>creativity</p>
+                        </div>
+                        <img class="mogo-arrow-down dropbtn dropbtn-2" onclick="open_dropdown('dd_edit')"
+                            src="img/arrow-down.png" alt="">
+                    </div>
+                    <div class="mogo-area mogo-area-2 display-none" id="dd_edit">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum
+                            dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum
+                            dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-wrap"></div>
                 <div class="mogo-header">
                     <div class="mogo-header-wrap">
-                        <img src="img/picture.png" alt="">
-                        <p>Photography</p>
+                        <img src="img/bullseye.png" alt="">
+                        <p>web design</p>
                     </div>
-                    <img class="mogo-arrow-down dropbtn dropbtn-1 disabled" onclick="open_dropdown('dd_file')" id="button" src="img/arrow-down.png" alt="">
+                    <img class="mogo-arrow-down dropbtn dropbtn-3" onclick="open_dropdown('dd_view')"
+                        src="img/arrow-down.png" alt="">
                 </div>
-                <div class="mogo-area mogo-area-1 " id="dd_file">
+                <div class="mogo-area mogo-area-3 display-none" id="dd_view">
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
+                        labore
+                        et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                         aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -36,7 +111,8 @@
                         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                         deserunt mollit anim id est laborum.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
+                        labore
+                        et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                         aliquip
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -45,70 +121,15 @@
                         deserunt mollit anim id est laborum.
                     </p>
                 </div>
-            </div>
-            <div class="main-wrap">
-                <div class="mogo-header">
-                    <div class="mogo-header-wrap">
-                        <img src="img/equalizer.png" alt="">
-                        <p>creativity</p>
-                    </div>
-                    <img class="mogo-arrow-down dropbtn dropbtn-2" onclick="open_dropdown('dd_edit')" src="img/arrow-down.png" alt="">
-                </div>
-                <div class="mogo-area mogo-area-2 display-none" id="dd_edit">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </div>
-            <div class="main-wrap"></div>
-            <div class="mogo-header">
-                <div class="mogo-header-wrap">
-                    <img src="img/bullseye.png" alt="">
-                    <p>web design</p>
-                </div>
-                <img class="mogo-arrow-down dropbtn dropbtn-3" onclick="open_dropdown('dd_view')"  src="img/arrow-down.png" alt="">
-            </div>
-            <div class="mogo-area mogo-area-3 display-none" id="dd_view">
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                </p>
             </div>
         </div>
     </div>
-</div>
 
 
 
 
-<script src="./js/jquery-3.4.1.min.js"></script>
-<script src="./js/script.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
